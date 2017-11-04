@@ -223,7 +223,7 @@
  *
  * :{ 0:'No power switch', 1:'ATX', 2:'X-Box 360' }
  */
-#define POWER_SUPPLY 1
+#define POWER_SUPPLY 0
 
 #if POWER_SUPPLY > 0
   // Enable this option to leave the PSU off at startup.
@@ -355,12 +355,12 @@
   //#define  DEFAULT_Kp 22.2
   //#define  DEFAULT_Ki 1.08
   //#define  DEFAULT_Kd 114
-  
+
   // Hephestos i3
   #define  DEFAULT_Kp 23.05
   #define  DEFAULT_Ki 2.00
   #define  DEFAULT_Kd 66.47
-  
+
   // MakerGear
   //#define  DEFAULT_Kp 7.0
   //#define  DEFAULT_Ki 0.1
@@ -370,12 +370,12 @@
   //#define  DEFAULT_Kp 63.0
   //#define  DEFAULT_Ki 2.25
   //#define  DEFAULT_Kd 440
-  
+
   // Hephestos i3
   #define  DEFAULT_Kp 23.05
   #define  DEFAULT_Ki 2.00
   #define  DEFAULT_Kd 66.47
-  
+
 #endif // PIDTEMP
 
 //===========================================================================
